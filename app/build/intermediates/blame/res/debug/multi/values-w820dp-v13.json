@@ -1,0 +1,230 @@
+[
+    {
+        "outputFile": "/home/santi/Documentos/Mineswiper/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 41,
+                    "endOffset": 150
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 155,
+                    "endColumn": 591,
+                    "endOffset": 742
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 747,
+                    "endColumn": 37,
+                    "endOffset": 780
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 785,
+                    "endColumn": 40,
+                    "endOffset": 821
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 826,
+                    "endColumn": 37,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 864,
+                    "endColumn": 58,
+                    "endOffset": 918
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 923,
+                    "endColumn": 37,
+                    "endOffset": 956
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 961,
+                    "endColumn": 45,
+                    "endOffset": 1002
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1007,
+                    "endColumn": 51,
+                    "endOffset": 1054
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1059,
+                    "endColumn": 43,
+                    "endOffset": 1098
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1103,
+                    "endColumn": 49,
+                    "endOffset": 1148
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1153,
+                    "endColumn": 55,
+                    "endOffset": 1204
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1209,
+                    "endColumn": 73,
+                    "endOffset": 1278
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1283,
+                    "endColumn": 43,
+                    "endOffset": 1322
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1327,
+                    "endColumn": 42,
+                    "endOffset": 1365
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1369,
+                        "endColumn": 42,
+                        "endOffset": 1407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1370,
+                    "endColumn": 43,
+                    "endOffset": 1409
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1414,
+                    "endColumn": 55,
+                    "endOffset": 1465
+                },
+                "from": {
+                    "file": "/home/santi/Documentos/Mineswiper/app/src/main/res/values-w820dp/strings.xml"
+                }
+            }
+        ]
+    }
+]

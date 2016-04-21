@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit">SALIR</string>
+    <string name="app_name">Buscaminas</string>
+    <string name="help">AYUDA</string>
+    <string name="main">PRINCIPAL</string>
+    <string name="start_game">EMPEZAR PARTIDA</string>
+    <string name="imgDescription">Image to layout</string>
+    <string name="textWelcome">Bienvenidor al juego del Buscaminas</string>
+    <string name="descriptionGame">El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina. Algunas casillas tienen un número, el cual indica la cantidad de minas que hay en las casillas circundantes. Así, si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor (si no es en una esquina o borde) hay 3 con minas y 5 sin minas. Si se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene mina y éstas se descubren automáticamente. Si se descubre una casilla con una mina se pierde la partida.</string>
+    <string name="atras">VOLVER</string>
+    <string name="setting">CONFIGURACIÓN</string>
+    <string name="playerText">Player</string>
+    <string name="textSizeGrill">Tamaño</string>
+    <string name="txtTimeControl">Control de tiempo</string>
+    <string name="porcentajeMinas">% Minas</string>
+    <string name="fifteenp">15%</string>
+    <string name="twentyfivep">25%</string>
+    <string name="thirtyfivep">35%</string>
+    <string name="msg1">Es necesario el nombre de jugador</string>
+    <string name="game">GAME</string>
+    <string name="timeOfGame">000</string>
+</resources>
