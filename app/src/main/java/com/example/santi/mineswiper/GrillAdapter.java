@@ -8,14 +8,16 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
 
+import java.util.List;
+
 /**
  * Created by santi on 21/04/16.
  */
 public class GrillAdapter extends BaseAdapter {
     private int sizeGrill;
     Context context;
-    Element[][]table;
-    public GrillAdapter(Context context, Element[][]table, int sizeGrill) {
+    List<Element>table;
+    public GrillAdapter(Context context, List<Element>table, int sizeGrill) {
         this.context = context;
         this.table = table;
         this.sizeGrill = sizeGrill;
@@ -28,7 +30,7 @@ public class GrillAdapter extends BaseAdapter {
 /*Hem d'arreglar aquest mètode*/
     @Override
     public Element getItem(int position) {
-        return table[position][position];
+        return table.get(position);
     }
 
     @Override
@@ -47,7 +49,7 @@ public class GrillAdapter extends BaseAdapter {
         else{
             btn = (Button)convertView;
         }
-        btn.setText(table.get(position));
+        //btn.setText(table.get(position));
         btn.setOnClickListener(new MyOnClickListener(position));
         btn.setId(position);
         return btn;

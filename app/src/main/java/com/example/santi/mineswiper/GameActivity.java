@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.GridView;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
@@ -14,7 +16,7 @@ public class GameActivity extends AppCompatActivity {
     private boolean checkControl;
     private int minesPercent;
     public int minesToBomb;
-    public Element [][]table;
+    public List<Element> table;
     private Bundle bundle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +41,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     public void createTable(){
-        table = new Element[sizeGrill][sizeGrill];
+        table = new ArrayList<>();
         Element e = new Element();
         e.isCovered = true;
         e.isQuestioned = false;
@@ -51,12 +53,12 @@ public class GameActivity extends AppCompatActivity {
                 table[i][j] = e;
             }
         }
-        table[0][2].isMined = true;
+        /*table[0][2].isMined = true;
         table[1][1].isMined = true;
         table[1][3].isMined = true;
         table[0][4].isMined = true;
         table[2][3].isMined = true;
-        table[4][3].isMined = true;
+        table[4][3].isMined = true;*/
         checkMinesAround();
        /* Random randomGenerator = new Random();
         int randomX, mines = 0;
