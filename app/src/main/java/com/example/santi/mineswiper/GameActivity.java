@@ -21,7 +21,7 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         getData();
-        graella.setAdapter(new GrillAdapter(this,table));
+        graella.setAdapter(new GrillAdapter(this,table,sizeGrill));
 
     }
     private void getData(){
