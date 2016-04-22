@@ -68,6 +68,10 @@ public class GameActivity extends AppCompatActivity {
     }
     public void checkMinesAround() {
         int totalSizeGrill = sizeGrill*sizeGrill;
+        List<Integer> num = new ArrayList<>();
+        for (int i = 2; i < sizeGrill; i++){
+            num.add((sizeGrill*i)-1);
+        }
         for (int pos = 0; pos< totalSizeGrill; pos++){
              if (pos == 0) {
                  Element e = table.get(pos);
@@ -127,6 +131,29 @@ public class GameActivity extends AppCompatActivity {
                      putNumMines(pos - sizeGrill);
                      putNumMines(pos - sizeGrill + 1);
                      putNumMines(pos + 1);
+                     putNumMines(pos + sizeGrill);
+                     putNumMines(pos + sizeGrill + 1);
+                 }
+             }
+            else if(num.contains(pos)){
+                 Element e = table.get(pos);
+                 if ((e.isMined())){
+                     putNumMines(pos - 1);
+                     putNumMines(pos - sizeGrill - 1);
+                     putNumMines(pos - sizeGrill);
+                     putNumMines(pos + sizeGrill - 1);
+                     putNumMines(pos + sizeGrill);
+                 }
+             }
+            else{
+                 Element e = table.get(pos);
+                 if ((e.isMined())){
+                     putNumMines(pos - 1);
+                     putNumMines(pos - sizeGrill - 1);
+                     putNumMines(pos - sizeGrill);
+                     putNumMines(pos - sizeGrill + 1);
+                     putNumMines(pos + 1);
+                     putNumMines(pos + sizeGrill - 1);
                      putNumMines(pos + sizeGrill);
                      putNumMines(pos + sizeGrill + 1);
                  }
