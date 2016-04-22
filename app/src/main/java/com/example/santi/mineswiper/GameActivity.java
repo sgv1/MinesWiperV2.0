@@ -121,6 +121,16 @@ public class GameActivity extends AppCompatActivity {
                     putNumMines(pos - sizeGrill - 1);
                  }
              }
+            else if (pos%sizeGrill == 0 && pos != 0 && pos != totalSizeGrill-sizeGrill){
+                 Element e = table.get(pos);
+                 if (e.isMined()){
+                     putNumMines(pos - sizeGrill);
+                     putNumMines(pos - sizeGrill + 1);
+                     putNumMines(pos + 1);
+                     putNumMines(pos + sizeGrill);
+                     putNumMines(pos + sizeGrill + 1);
+                 }
+             }
             /*Cotinuar a partir d'aqui, falten els laterals i el centre*/
         }
     }
