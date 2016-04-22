@@ -101,6 +101,26 @@ public class GameActivity extends AppCompatActivity {
                     putNumMines(((sizeGrill - 1) * sizeGrill) - 2);
                 }
             }
+            else if(pos > 0 && pos < sizeGrill - 1){
+                 Element e = table.get(pos);
+                 if (e.isMined()){
+                     putNumMines(pos - 1);
+                     putNumMines(pos + 1);
+                     putNumMines(pos + sizeGrill);
+                     putNumMines(pos + sizeGrill - 1);
+                     putNumMines(pos + sizeGrill + 1);
+                 }
+             }
+            else if (pos > totalSizeGrill - sizeGrill && pos < totalSizeGrill - 1){
+                 Element e = table.get(pos);
+                 if (e.isMined()){
+                    putNumMines(pos - 1);
+                    putNumMines(pos + 1);
+                    putNumMines(pos - sizeGrill);
+                    putNumMines(pos - sizeGrill + 1);
+                    putNumMines(pos - sizeGrill - 1);
+                 }
+             }
             /*Cotinuar a partir d'aqui, falten els laterals i el centre*/
         }
     }
