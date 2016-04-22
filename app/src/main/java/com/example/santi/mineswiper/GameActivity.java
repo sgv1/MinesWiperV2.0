@@ -36,178 +36,79 @@ public class GameActivity extends AppCompatActivity {
         createTable();
     }
 
-    private int calculateMinesToGrill(int size, int percent){
+    public int calculateMinesToGrill(int size, int percent){
         return (int)((size*size)*(percent/100.0));
     }
 
     public void createTable(){
-        table = new ArrayList<>();
-        Element e = new Element();
-        e.isCovered = true;
-        e.isQuestioned = false;
-        e.isUncovered = false;
-        e.isMined = false;
-        e.numMinesAround = 0;
-        for (int i = 0; i < sizeGrill; i++){
-            for (int j = 0; j < sizeGrill; j++){
-                table[i][j] = e;
+        table = new ArrayList<Element>();
+        int totalSizeGrill = sizeGrill*sizeGrill;
+        int mines = 0;
+        for(int i = 0; i < totalSizeGrill; i++) {
+            Element e = new Element();
+            e.isCovered = true;
+            e.isQuestioned = false;
+            e.isUncovered = false;
+            e.isMined = false;
+            e.numMinesAround = 0;
+            table.add(e);
+        }
+        while (mines < minesToBomb){
+            Random randomGenerator = new Random();
+            int numRandom = randomGenerator.nextInt(totalSizeGrill);
+            Element e = table.get(numRandom);
+            if (!e.isMined()){
+                e.isMined = true;
+                table.set(numRandom,e);
+                mines = mines + 1;
             }
         }
-        /*table[0][2].isMined = true;
-        table[1][1].isMined = true;
-        table[1][3].isMined = true;
-        table[0][4].isMined = true;
-        table[2][3].isMined = true;
-        table[4][3].isMined = true;*/
         checkMinesAround();
-       /* Random randomGenerator = new Random();
-        int randomX, mines = 0;
-        while (mines < minesToBomb){
-            for(int i = 0; i < sizeGrill; i++){
-                for (int j = 0; j < sizeGrill; j++){
-                    randomX = randomGenerator.nextInt(3);
-                    if (!table[i][j].isMined && randomX == 0){
-                        table[i][j].isMined = true;
-                        mines = mines + 1;
-                    }
-                }
-            }
-        }*/
+
     }
     public void checkMinesAround() {
-        for (int i = 0; i < sizeGrill; i++) {
-            for (int j = 0; j < sizeGrill; j++) {
-                if (i == 0 && j == 0) {
-                    if (!table[i][j].isMined) {
-                        if (table[i + 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                    }
-                } else if (i == sizeGrill - 1 && j == 0) {
-                    if (!table[i][j].isMined) {
-                        if (table[i - 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i - 1][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                    }
-                } else if (i == 0 && j == sizeGrill - 1) {
-                    if (!table[i][j].isMined) {
-                        if (table[i][j - 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j - 1].isMined()) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                    }
-                } else if (i == sizeGrill - 1 && j == sizeGrill - 1) {
-                    if (!table[i][j].isMined) {
-                        if (table[i][j - 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i - 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i - 1][j - 1].isMined()) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                    }
-                } else if (i == 0) {
-                    if (!table[i][j].isMined) {
-                        if (table[i][j - 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j - 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                    }
-                } else if (j == 0) {
-                    if (!table[i][j].isMined) {
-                        if (table[i - 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i - 1][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                    }
-                } else if (i == sizeGrill - 1) {
-                    if (!table[i][j].isMined) {
-                        if (table[i][j - 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i - 1][j - 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i - 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i - 1][j + 1].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                        if (table[i + 1][j].isMined) {
-                            table[i][j].setNumMinesAround(+1);
-                        }
-                    } else {
-                        if (!table[i][j].isMined) {
-                            if (table[i - 1][j - 1].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                            if (table[i - 1][j].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                            if (table[i - 1][j + 1].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                            if (table[i][j + 1].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                            if (table[i + 1][j + 1].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                            if (table[i + 1][j].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                            if (table[i + 1][j - 1].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                            if (table[i][j - 1].isMined) {
-                                table[i][j].setNumMinesAround(+1);
-                            }
-                        }
-                    }
+        int totalSizeGrill = sizeGrill*sizeGrill;
+        for (int pos = 0; pos< totalSizeGrill; pos++){
+             if (pos == 0) {
+                 Element e = table.get(pos);
+                 if (e.isMined()) {
+                     putNumMines(pos + 1);
+                     putNumMines(sizeGrill);
+                     putNumMines(sizeGrill + 1);
+                 }
+             }
+            else if (pos == sizeGrill - 1){
+                Element e = table.get(pos);
+                 if (e.isMined()){
+                     putNumMines(pos - 1);
+                     putNumMines((pos*2)+1);
+                     putNumMines(pos*2);
+                 }
+            }
+            else if (pos == totalSizeGrill - sizeGrill){
+                Element e = table.get(pos);
+                if (e.isMined()){
+                    putNumMines(pos + 1);
+                    putNumMines(pos - sizeGrill);
+                    putNumMines(pos - sizeGrill + 1);
                 }
             }
+            else if (pos == totalSizeGrill - 1){
+                Element e = table.get(pos);
+                if (e.isMined()){
+                    putNumMines(pos - 1);
+                    putNumMines(((sizeGrill - 1) * sizeGrill) - 1);
+                    putNumMines(((sizeGrill - 1) * sizeGrill) - 2);
+                }
+            }
+            /*Cotinuar a partir d'aqui, falten els laterals i el centre*/
+        }
+    }
+    private void putNumMines(int position){
+        Element element = table.get(position);
+        if (!element.isMined()){
+            element.numMinesAround = element.numMinesAround + 1;
+            table.set(position,element);
         }
     }
 }

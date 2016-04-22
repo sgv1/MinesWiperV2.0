@@ -4,26 +4,26 @@
     api-level="19"
     density="xhdpi"
     format="7"
-    timestamp="58427810385568" >
+    timestamp="60760820474216" >
 
     <task
         name="javac"
-        duration="167" />
+        duration="399" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="29" />
+        duration="48" />
     <task
         name="verifier"
-        duration="2" />
+        duration="1" />
 
     <artifact
         location="/home/santi/Documentos/Mineswiper/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="58427810385568" >
+    <build timestamp="60760820474216" >
         <artifact
             location="/home/santi/Documentos/Mineswiper/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

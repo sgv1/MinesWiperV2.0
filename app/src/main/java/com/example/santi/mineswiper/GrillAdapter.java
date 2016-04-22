@@ -50,7 +50,7 @@ public class GrillAdapter extends BaseAdapter {
             btn = (Button)convertView;
         }
         //btn.setText(table.get(position));
-        btn.setOnClickListener(new MyOnClickListener(position));
+       // btn.setOnClickListener(new MyOnClickListener(position));
         btn.setId(position);
         return btn;
     }
