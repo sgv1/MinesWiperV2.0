@@ -41,16 +41,17 @@ public class GrillAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Button btn;
-        if (convertView == null){
+        Element element = getItem(position);
+        if (convertView == null && position != 0){
             btn = new Button(context);
-            btn.setLayoutParams(new GridView.LayoutParams(GridView.LayoutParams.MATCH_PARENT,50));
             btn.setPadding(8,8,8,8);
+            element.setButton(btn);
         }
         else{
             btn = (Button)convertView;
         }
         //btn.setText(table.get(position));
-       // btn.setOnClickListener(new MyOnClickListener(position));
+        btn.setOnClickListener(new MyOnClickListener(position));
         btn.setId(position);
         return btn;
     }

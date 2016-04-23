@@ -1,5 +1,7 @@
 package com.example.santi.mineswiper;
 
+import android.widget.Button;
+
 /**
  * Created by santi on 21/04/16.
  */
@@ -9,6 +11,7 @@ public class Element {
     boolean isQuestioned;
     boolean isMined;
     int numMinesAround;
+    private Button btn;
 
     public boolean isCovered() {
         return isCovered;
@@ -48,5 +51,10 @@ public class Element {
 
     public void setNumMinesAround(int numMinesAround) {
         this.numMinesAround = numMinesAround;
+    }
+
+
+    public void setButton(Button button) {
+        btn = button;
     }
 }
