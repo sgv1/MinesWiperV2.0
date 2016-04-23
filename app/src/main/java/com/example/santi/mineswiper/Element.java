@@ -10,6 +10,10 @@ public class Element {
     boolean isMined;
     int numMinesAround;
 
+    public Element(){
+
+    }
+
     public boolean isCovered() {
         return isCovered;
     }

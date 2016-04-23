@@ -46,11 +46,12 @@ public class GameActivity extends AppCompatActivity {
         int mines = 0;
         for(int i = 0; i < totalSizeGrill; i++) {
             Element e = new Element();
-            e.isCovered = true;
-            e.isQuestioned = false;
-            e.isUncovered = false;
-            e.isMined = false;
-            e.numMinesAround = 0;
+
+            e.setCovered(true);
+            e.setQuestioned(false);
+            e.setMined(false);
+            e.setNumMinesAround(0);
+
             table.add(e);
         }
         while (mines < minesToBomb){
@@ -58,14 +59,14 @@ public class GameActivity extends AppCompatActivity {
             int numRandom = randomGenerator.nextInt(totalSizeGrill);
             Element e = table.get(numRandom);
             if (!e.isMined()){
-                e.isMined = true;
+                e.setMined(true);
                 table.set(numRandom,e);
                 mines = mines + 1;
             }
         }
         checkMinesAround();
-
     }
+
     public void checkMinesAround() {
         int totalSizeGrill = sizeGrill*sizeGrill;
         List<Integer> num = new ArrayList<>();
