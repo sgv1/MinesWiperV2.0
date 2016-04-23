@@ -2,6 +2,9 @@ package com.example.santi.mineswiper;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.GridView;
 
 import java.util.ArrayList;
@@ -23,7 +26,11 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         getData();
-        graella.setAdapter(new GrillAdapter(this,table,sizeGrill));
+        //graella.setAdapter(new GrillAdapter(this,table,sizeGrill));
+        GridView gridv = (GridView)findViewById(R.id.graella);
+        ArrayAdapter<Element> gridAdapter = new ArrayAdapter<Element>(this, android.R.layout.simple_list_item_1,this.table);
+        gridv.setAdapter(gridAdapter);
+        gridv.setOnItemClickListener(new gridViewInfo());
 
     }
     private void getData(){
@@ -42,7 +49,7 @@ public class GameActivity extends AppCompatActivity {
 
     public void createTable(){
         table = new ArrayList<Element>();
-        int totalSizeGrill = sizeGrill*sizeGrill;
+        int totalSizeGrill = sizeGrill *sizeGrill;
         int mines = 0;
         for(int i = 0; i < totalSizeGrill; i++) {
             Element e = new Element();
@@ -51,6 +58,7 @@ public class GameActivity extends AppCompatActivity {
             e.setQuestioned(false);
             e.setMined(false);
             e.setNumMinesAround(0);
+            e.setPosition(i);
 
             table.add(e);
         }
@@ -165,8 +173,18 @@ public class GameActivity extends AppCompatActivity {
     private void putNumMines(int position){
         Element element = table.get(position);
         if (!element.isMined()){
-            element.numMinesAround = element.numMinesAround + 1;
+            element.setNumMinesAround(element.getNumMinesAround()+1);
             table.set(position,element);
         }
     }
+
+    private class gridViewInfo implements AdapterView.OnItemClickListener{
+        @Override
+        public void onItemClick(AdapterView<?> listv, View selectedView, int position, long id){
+
+        }
+    }
+
 }
+
+

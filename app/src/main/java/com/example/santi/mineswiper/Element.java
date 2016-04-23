@@ -4,12 +4,12 @@ package com.example.santi.mineswiper;
  * Created by santi on 21/04/16.
  */
 public class Element {
-    boolean isCovered;
-    boolean isUncovered;
-    boolean isQuestioned;
-    boolean isMined;
-    int numMinesAround;
-    String position;
+    private boolean isCovered;
+    private boolean isUncovered;
+    private boolean isQuestioned;
+    private boolean isMined;
+    private int numMinesAround;
+    private String position;
 
     public Element(){
 
