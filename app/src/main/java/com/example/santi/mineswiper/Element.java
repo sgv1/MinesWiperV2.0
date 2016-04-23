@@ -9,6 +9,7 @@ public class Element {
     boolean isQuestioned;
     boolean isMined;
     int numMinesAround;
+    String position;
 
     public Element(){
 
@@ -52,5 +53,13 @@ public class Element {
 
     public void setNumMinesAround(int numMinesAround) {
         this.numMinesAround = numMinesAround;
+    }
+
+    public void setPosition(int position){
+        this.position = Integer.toString(position);
+    }
+
+    public int getPosition(){
+        return Integer.parseInt(this.position);
     }
 }
