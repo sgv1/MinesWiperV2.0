@@ -1,6 +1,7 @@
 package com.example.santi.mineswiper;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
@@ -72,7 +73,10 @@ public class GrillAdapter extends BaseAdapter {
                 if(e.isMined()){
                     //btn.setBackgroundResource(R.drawable.bomb);
                     btn.setBackgroundColor(android.graphics.Color.RED);
-                    //passar a resultats pa que el santi se n'enteri
+                    //passar a resultats; pa que el santi se n'enteri
+                }
+                else{
+                    btn.setText(e.getNumMinesAround());
                 }
             }
         }

@@ -20,4 +20,6 @@
     <string name="msg1">Es necesario el nombre de jugador</string>
     <string name="game">GAME</string>
     <string name="timeOfGame">000</string>
+    <string name="sendEmail">Envia por correo</string>
+    <string name="newGame">Nueva partida</string>
 </resources>
