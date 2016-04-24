@@ -28,7 +28,7 @@ public class GrillAdapter extends BaseAdapter {
     public int getCount() {
         return sizeGrill*sizeGrill;
     }
-/*Hem d'arreglar aquest mètode*/
+
     @Override
     public Element getItem(int position) {
         return table.get(position);
@@ -38,11 +38,6 @@ public class GrillAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
-
-    /*@Override
-    public View getView(int position, View convertView, ViewGroup parent){
-        return convertView;
-    }*/
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -57,8 +52,30 @@ public class GrillAdapter extends BaseAdapter {
             btn.setPadding(8,8,8,8);
         }
         //btn.setText(table.get(position));
-       // btn.setOnClickListener(new MyOnClickListener(position));
         btn.setId(position);
+        btn.setOnClickListener(new MyOnClickListener(position));
         return btn;
+    }
+
+    public class MyOnClickListener implements View.OnClickListener{
+
+        private final int position;
+        public MyOnClickListener(int position){
+            this.position=position;
+        }
+        @Override
+        public void onClick(View view){
+            Button btn = (Button) view.findViewById(view.getId());
+            Element e = table.get(position);
+            if(e.isCovered()){
+                e.setCovered(false);
+                if(e.isMined()){
+                    //btn.setBackgroundResource(R.drawable.bomb);
+                    btn.setBackgroundColor(android.graphics.Color.RED);
+                    //passar a resultats pa que el santi se n'enteri
+                }
+            }
+        }
+
     }
 }
