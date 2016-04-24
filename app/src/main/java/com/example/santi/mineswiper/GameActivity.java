@@ -1,10 +1,13 @@
 package com.example.santi.mineswiper;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.GridView;
 
 import java.util.ArrayList;
@@ -21,16 +24,20 @@ public class GameActivity extends AppCompatActivity {
     public int minesToBomb;
     public List<Element> table;
     private Bundle bundle;
+    public GrillAdapter grillAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         getData();
+        this.graella = (GridView)findViewById(R.id.graella);
+        this.grillAdapter = new GrillAdapter(this, this.table, this.sizeGrill);
+        this.graella.setAdapter(this.grillAdapter);
         //graella.setAdapter(new GrillAdapter(this,table,sizeGrill));
-        GridView gridv = (GridView)findViewById(R.id.graella);
+        /*GridView gridv = (GridView)findViewById(R.id.graella);
         ArrayAdapter<Element> gridAdapter = new ArrayAdapter<Element>(this, android.R.layout.simple_list_item_1,this.table);
         gridv.setAdapter(gridAdapter);
-        gridv.setOnItemClickListener(new gridViewInfo());
+        gridv.setOnItemClickListener(new gridViewInfo());*/
 
     }
     private void getData(){
@@ -178,12 +185,32 @@ public class GameActivity extends AppCompatActivity {
         }
     }
 
-    private class gridViewInfo implements AdapterView.OnItemClickListener{
+    /*private class gridViewInfo implements AdapterView.OnItemClickListener{
+
+        Context context;
+
         @Override
         public void onItemClick(AdapterView<?> listv, View selectedView, int position, long id){
 
         }
-    }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            Button btn;
+            if (convertView == null){
+                btn = new Button(context);
+                btn.setLayoutParams(new GridView.LayoutParams(GridView.LayoutParams.MATCH_PARENT,50));
+                btn.setPadding(8,8,8,8);
+            }
+            else{
+                btn = (Button)convertView;
+            }
+            //btn.setText(table.get(position));
+            // btn.setOnClickListener(new MyOnClickListener(position));
+            //btn.setId(position);
+            return btn;
+        }
+    }*/
 
 }
 

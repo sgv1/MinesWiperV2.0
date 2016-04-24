@@ -40,6 +40,11 @@ public class GrillAdapter extends BaseAdapter {
     }
 
     @Override
+    public View getView(int position, View convertView, ViewGroup parent){
+        return convertView;
+    }
+/*
+    @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Button btn;
         if (convertView == null){
@@ -54,5 +59,5 @@ public class GrillAdapter extends BaseAdapter {
        // btn.setOnClickListener(new MyOnClickListener(position));
         btn.setId(position);
         return btn;
-    }
+    }*/
 }
