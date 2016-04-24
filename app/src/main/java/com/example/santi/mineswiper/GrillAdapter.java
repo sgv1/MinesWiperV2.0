@@ -17,6 +17,7 @@ public class GrillAdapter extends BaseAdapter {
     private int sizeGrill;
     Context context;
     List<Element>table;
+
     public GrillAdapter(Context context, List<Element>table, int sizeGrill) {
         this.context = context;
         this.table = table;

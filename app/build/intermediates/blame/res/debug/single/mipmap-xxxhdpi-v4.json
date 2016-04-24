@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/santi/Documentos/Mineswiper/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
-        "source": "/home/santi/Documentos/Mineswiper/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
