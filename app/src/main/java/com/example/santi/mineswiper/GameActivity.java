@@ -32,14 +32,10 @@ public class GameActivity extends AppCompatActivity {
         getData();
         this.graella = (GridView)findViewById(R.id.graella);
         this.grillAdapter = new GrillAdapter(this, this.table, this.sizeGrill);
+        this.graella.setNumColumns(sizeGrill);
         this.graella.setAdapter(this.grillAdapter);
-        //graella.setAdapter(new GrillAdapter(this,table,sizeGrill));
-        /*GridView gridv = (GridView)findViewById(R.id.graella);
-        ArrayAdapter<Element> gridAdapter = new ArrayAdapter<Element>(this, android.R.layout.simple_list_item_1,this.table);
-        gridv.setAdapter(gridAdapter);
-        gridv.setOnItemClickListener(new gridViewInfo());*/
-
     }
+
     private void getData(){
         bundle = getIntent().getExtras();
         userName = bundle.getString("USERNAME");
@@ -185,32 +181,6 @@ public class GameActivity extends AppCompatActivity {
         }
     }
 
-    /*private class gridViewInfo implements AdapterView.OnItemClickListener{
-
-        Context context;
-
-        @Override
-        public void onItemClick(AdapterView<?> listv, View selectedView, int position, long id){
-
-        }
-
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
-            Button btn;
-            if (convertView == null){
-                btn = new Button(context);
-                btn.setLayoutParams(new GridView.LayoutParams(GridView.LayoutParams.MATCH_PARENT,50));
-                btn.setPadding(8,8,8,8);
-            }
-            else{
-                btn = (Button)convertView;
-            }
-            //btn.setText(table.get(position));
-            // btn.setOnClickListener(new MyOnClickListener(position));
-            //btn.setId(position);
-            return btn;
-        }
-    }*/
 
 }
 

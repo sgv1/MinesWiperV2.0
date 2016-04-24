@@ -39,25 +39,26 @@ public class GrillAdapter extends BaseAdapter {
         return position;
     }
 
-    @Override
+    /*@Override
     public View getView(int position, View convertView, ViewGroup parent){
         return convertView;
-    }
-/*
+    }*/
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Button btn;
         if (convertView == null){
             btn = new Button(context);
-            btn.setLayoutParams(new GridView.LayoutParams(GridView.LayoutParams.MATCH_PARENT,50));
+            btn.setLayoutParams(new GridView.LayoutParams(GridView.LayoutParams.WRAP_CONTENT,GridView.LayoutParams.WRAP_CONTENT));
             btn.setPadding(8,8,8,8);
         }
         else{
             btn = (Button)convertView;
+            btn.setPadding(8,8,8,8);
         }
         //btn.setText(table.get(position));
        // btn.setOnClickListener(new MyOnClickListener(position));
         btn.setId(position);
         return btn;
-    }*/
+    }
 }
