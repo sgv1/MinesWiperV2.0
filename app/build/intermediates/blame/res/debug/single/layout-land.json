@@ -1,23 +1,23 @@
 [
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_help.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\layout-land\\activity_help.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_setting.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\layout-land\\activity_setting.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_help.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\layout-land\\activity_help.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\layout-land\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\layout-land\\activity_main.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_setting.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\layout-land\\activity_setting.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_help.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\layout-land\\activity_help.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_game.xml",

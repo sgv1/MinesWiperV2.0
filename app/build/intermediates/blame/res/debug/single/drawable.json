@@ -1,27 +1,19 @@
 [
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\minesweeperflag.png",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\minesweeperflag.png"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bomb.png",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\bomb.png"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buscaminasexample.png",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\buscaminasexample.png"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imgajustes.jpg",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\drawable\\imgajustes.jpg"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
         "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagehelp.png",
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\imagehelp.png"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\timechange.png",
@@ -30,6 +22,10 @@
     {
         "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imgajustes.jpg",
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\imgajustes.jpg"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bomb.png",
@@ -44,12 +40,16 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\timechange.png",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\timechange.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
     },
@@ -68,52 +72,44 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cuadricula.png",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\cuadricula.png"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buscaminasexample.png",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\drawable\\buscaminasexample.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
@@ -128,16 +124,12 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\minesweeperflag.png",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\minesweeperflag.png"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
@@ -152,32 +144,48 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
         "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -188,16 +196,8 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagehelp.png",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\drawable\\imagehelp.png"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buscaminasexample.png",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\buscaminasexample.png"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
@@ -208,56 +208,60 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bomb.png",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\bomb.png"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imgdisquet.JPG",
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\imgdisquet.JPG"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\timechange.png",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\timechange.png"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imgdisquet.JPG",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\drawable\\imgdisquet.JPG"
     },
     {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -268,12 +272,8 @@
         "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\drawable\\cuadricula.png"
     },
     {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cuadricula.png",
-        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\src\\main\\res\\drawable\\cuadricula.png"
+        "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",

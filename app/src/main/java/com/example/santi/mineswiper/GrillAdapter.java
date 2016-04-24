@@ -1,6 +1,8 @@
 package com.example.santi.mineswiper;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,7 +60,7 @@ public class GrillAdapter extends BaseAdapter {
         return btn;
     }
 
-    public class MyOnClickListener implements View.OnClickListener{
+    public class MyOnClickListener extends Activity implements View.OnClickListener {
 
         private final int position;
         public MyOnClickListener(int position){
@@ -71,12 +73,13 @@ public class GrillAdapter extends BaseAdapter {
             if(e.isCovered()){
                 e.setCovered(false);
                 if(e.isMined()){
-                    //btn.setBackgroundResource(R.drawable.bomb);
                     btn.setBackgroundColor(android.graphics.Color.RED);
                     //passar a resultats; pa que el santi se n'enteri
+                    /*startActivity(new Intent(this,LogActivity.class));
+                    finish();*/
                 }
                 else{
-                    btn.setText(e.getNumMinesAround());
+                    btn.setText((CharSequence)Integer.toString(e.getNumMinesAround()));
                 }
             }
         }

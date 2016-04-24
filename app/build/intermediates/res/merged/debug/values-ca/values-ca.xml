@@ -29,8 +29,10 @@
     <string name="imgDescription">Image to layout</string>
     <string name="main">PRINCIPAL</string>
     <string name="msg1">És necessari un nom de jugador</string>
+    <string name="newGame">Nova partida</string>
     <string name="playerText">Player</string>
     <string name="porcentajeMinas">% Mines</string>
+    <string name="sendEmail">Envia per correu</string>
     <string name="setting">CONFIGURACIÓ</string>
     <string name="start_game">COMENÇAR PARTIDA</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>

@@ -223,8 +223,10 @@
     <string name="imgDescription">Image to layout</string>
     <string name="main">MAIN</string>
     <string name="msg1">It\'s necessary a name of player</string>
+    <string name="newGame">New Game</string>
     <string name="playerText">Player</string>
     <string name="porcentajeMinas">% Mines</string>
+    <string name="sendEmail">Send by email</string>
     <string name="setting">SETTING</string>
     <string name="start_game">START GAME</string>
     <string name="status_bar_notification_info_overflow">999+</string>

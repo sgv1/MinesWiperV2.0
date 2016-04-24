@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xm
 		INJECTED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sergi\Desktop\MinesWiperV2.0\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Sergi\Desktop\MinesWiperV2.0\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Sergi\Desktop\MinesWiperV2.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
@@ -55,9 +55,13 @@ ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:19:19-50
 activity#com.example.santi.mineswiper.GameActivity
-ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:20:9-59
+ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:20:9-50
 	android:name
 		ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:20:19-47
+activity#com.example.santi.mineswiper.LogActivity
+ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:21:9-58
+	android:name
+		ADDED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml:21:19-46
 uses-sdk
 INJECTED from C:\Users\Sergi\Desktop\MinesWiperV2.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Sergi\Desktop\MinesWiperV2.0\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78

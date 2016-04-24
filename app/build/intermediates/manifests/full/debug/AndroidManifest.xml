@@ -24,6 +24,7 @@
         <activity android:name="com.example.santi.mineswiper.HelpActivity" />
         <activity android:name="com.example.santi.mineswiper.SettingActivity" />
         <activity android:name="com.example.santi.mineswiper.GameActivity" />
+        <activity android:name="com.example.santi.mineswiper.LogActivity" />
     </application>
 
 </manifest>

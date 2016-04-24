@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class LogActivity extends AppCompatActivity {
+public class LogActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,17 +30,17 @@ public class LogActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.buttonSendEmail:
-                Intent gmail = new Intent(Intent.ACTION_VIEW);
+                /*Intent gmail = new Intent(Intent.ACTION_VIEW);
                 gmail.setClassName("com.google.android.gm", "com.google.android.gm.ComposeActivityGmail");
                 gmail.putExtra(Intent.EXTRA_EMAIL, new String[]{getString(R.string.email)});
                 gmail.setData(Uri.parse(getString(R.string.email)));
                 gmail.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.subject));
                 gmail.setType("plain/text");
                 gmail.putExtra(Intent.EXTRA_TEXT, getString(R.string.body));
-                startActivity(gmail);
+                startActivity(gmail);*/
                 break;
             case R.id.buttonNewGame:
-                startActivity(new Intent(this,SettingActivity.class));
+                startActivity(new Intent(this, SettingActivity.class));
                 finish();
                 break;
         }

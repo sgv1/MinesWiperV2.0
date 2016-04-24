@@ -170,7 +170,6 @@ public class GameActivity extends AppCompatActivity {
                      putNumMines(pos + sizeGrill + 1);
                  }
              }
-            /*Cotinuar a partir d'aqui, falten els laterals i el centre*/
         }
     }
     private void putNumMines(int position){

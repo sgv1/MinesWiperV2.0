@@ -296,6 +296,10 @@
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
+        "merged": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_log.xml",
+        "source": "C:\\Users\\Sergi\\Desktop\\MinesWiperV2.0\\app\\src\\main\\res\\layout\\activity_log.xml"
+    },
+    {
         "merged": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\home\\santi\\Documentos\\Mineswiper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_cancel_action.xml"
     },

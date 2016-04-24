@@ -29,8 +29,10 @@
     <string name="imgDescription">Image to layout</string>
     <string name="main">PRINCIPAL</string>
     <string name="msg1">Es necesario el nombre de jugador</string>
+    <string name="newGame">Nueva partida</string>
     <string name="playerText">Player</string>
     <string name="porcentajeMinas">% Minas</string>
+    <string name="sendEmail">Envia por correo</string>
     <string name="setting">CONFIGURACIÓN</string>
     <string name="start_game">EMPEZAR PARTIDA</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
